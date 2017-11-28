@@ -1,0 +1,123 @@
+*{
+	box-sizing: border-box;
+	font-family: Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+/* crear container*/
+
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.row:before, .row:after {
+	content: "";
+	display:table;
+	clear: both;
+}
+
+.row [class*="col"] {
+  float: left;
+  margin: 3px 2%;
+  min-height: 0.125rem;
+}
+.menu {
+	height:40px;
+	background-color: #6D6767;
+}
+
+
+.col-1-sm {
+  width: 4.33%;
+}
+
+.col-2-sm {
+  width: 12.66%;
+}
+
+.col-3-sm {
+  width: 21%;
+}
+
+.col-4-sm {
+  width: 29.33%;
+}
+
+.col-5-sm {
+  width: 37.66%;
+}
+
+.col-6-sm {
+  width: 46%;
+}
+
+.col-7-sm {
+  width: 54.33%;
+}
+
+.col-8-sm {
+  width: 62.66%;
+}
+
+.col-9-sm {
+  width: 71%;
+}
+
+.col-10-sm {
+  width: 79.33%;
+}
+
+.col-11-sm {
+  width: 87.66%;
+}
+
+.col-12-sm {
+  width: 96%;
+}
+
+.for-text {
+  position: relative;
+  width: 100%;
+}
+
+h1 {
+	color:#fff;
+	font-size: 50px;
+	position: absolute;
+	top: 100px;
+	left: 413px;
+	width: 100%;
+
+}
+
+h4 {
+	color:#fff;
+	position: absolute;
+	font-size: 30px;
+	top: 170px;
+	left: 450px;
+	width: 100%;
+
+}
+
+.second-part {
+	width: 100%;
+	height: 50em;
+
+}
+
+.rone {
+     width: 80%;
+     height: 80%;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+
+}
+
+footer {
+	background-color: #6D6767;
+	text-align: center;
+}
